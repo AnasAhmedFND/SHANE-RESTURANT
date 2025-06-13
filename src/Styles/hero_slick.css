@@ -1,0 +1,13 @@
+.slick-dots {
+  bottom: 20px;
+}
+
+.slick-dots li {
+  margin: 0 6px;
+}
+
+.slick-dots li button:before {
+  font-size: 20px;      /* dot size */
+  color: white;         /* normal dot color */
+  opacity: 0.5;
+}
