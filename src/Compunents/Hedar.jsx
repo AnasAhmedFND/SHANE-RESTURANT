@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 
 
@@ -9,7 +10,9 @@ const Hedar = () => {
           <img className='w-[200px] ' src="/Group.png" alt="" />
 
           <ul className='flex gap-5 font-bold text-[14px] md:ml-[96px] '>
+            <Link href={'/'} >
             <li>HOME</li>
+            </Link>
             <li>MENU</li>
             <li>BANQUET FACELITY</li>
             <li>GALLERY</li>
@@ -17,8 +20,9 @@ const Hedar = () => {
             <li>CONTACT US</li>
 
           </ul>
-
-          <button className='bg-red-500 font-bold px-4 py-2 text-[14px] '>BOOK A BANQUET</button>
+            <Link href={'Book'}>
+          <button className='bg-red-500 font-bold px-4 py-2 text-[14px] cursor-pointer '>BOOK A BANQUET</button>
+            </Link>
         </div>
 
     </section>
