@@ -9,10 +9,10 @@ const Footer = () => {
         {/* first div........... */}
         <div className=" w-[25%]  ">
           <h4 className='font-bold text-xl'>have a message?</h4>
-          <input className='border mt-4 py-2 rounded-md w-full bg-white text-[12px] ' type="text" placeholder='NAME*' />
-          <input className='border mt-2 py-2 rounded-md w-full bg-white text-[12px] ' type="text" placeholder='EMAIL*' />
-          <input className='border mt-2 py-2 rounded-md w-full bg-white text-[12px] ' type="text" placeholder='NUMBER*' />
-          <textarea className='border mt-2 py-2 rounded-md w-full bg-white text-[12px] ' name="message" id="sms" placeholder='YOUR MESSAGE*' >
+          <input className='border mt-4 py-2 rounded-md w-full bg-white text-[12px] px-2 ' type="text" placeholder='NAME*' />
+          <input className='border mt-2 py-2 rounded-md w-full bg-white text-[12px] px-2 ' type="text" placeholder='EMAIL*' />
+          <input className='border mt-2 py-2 rounded-md w-full bg-white text-[12px] px-2 ' type="text" placeholder='NUMBER*' />
+          <textarea className='border mt-2 py-2 rounded-md w-full bg-white text-[12px] px-2 ' name="message" id="sms" placeholder='YOUR MESSAGE*' >
 
           </textarea>
           <button className='font-bold text-[12px] mt-2 border py-2 px-4 bg-[#433E3E] text-white  '>SEND INQUIRES</button>

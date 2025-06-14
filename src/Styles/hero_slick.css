@@ -9,5 +9,5 @@
 .slick-dots li button:before {
   font-size: 20px;      /* dot size */
   color: white;         /* normal dot color */
-  opacity: 0.5;
+  opacity: 1;
 }

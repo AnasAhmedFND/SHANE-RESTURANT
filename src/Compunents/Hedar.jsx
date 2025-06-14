@@ -13,7 +13,9 @@ const Hedar = () => {
             <Link href={'/'} >
             <li>HOME</li>
             </Link>
+            <Link href={'menu'} >
             <li>MENU</li>
+            </Link>
             <li>BANQUET FACELITY</li>
             <li>GALLERY</li>
             <li>CATERING</li>
