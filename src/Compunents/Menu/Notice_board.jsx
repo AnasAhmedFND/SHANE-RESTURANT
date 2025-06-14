@@ -44,6 +44,8 @@ const Notice_board = () => {
 
             </Slider>
 
+            
+
 
         </section>
     )

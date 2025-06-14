@@ -13,12 +13,15 @@ const inter = Inter({
     variable: '--font-inter',
 })
 const Hero = () => {
-    var settings = {
-        dots: true,       
-        infinite: true,        
-        speed: 500,
+    const settings = {
+        dots: true,
+        infinite: true,
         slidesToShow: 1,
         slidesToScroll: 1,
+        autoplay: true,
+        speed: 500,
+        autoplaySpeed: 2000,
+        cssEase: "linear"
     };
 
     <style>
@@ -27,30 +30,30 @@ const Hero = () => {
 
     return (
         <section className='border container mx-auto  '>
-           
+
             <Slider {...settings}>
                 <div>
                     <div className="relative">
 
-                <img className='h-[450px] w-full ' src="/hero/hero.png" alt="Hero Img" />
-                <h1 className={`${inter.className} absolute top-52 left-52 italic text-4xl text-white`}>SERVING BEST RESTURENT CATRING & <br />BONQUET SERVICES IN NEW JERCY (1) </h1>
-            </div>
+                        <img className='h-[450px] w-full ' src="/hero/hero.png" alt="Hero Img" />
+                        <h1 className={`${inter.className} absolute top-52 left-52 italic text-4xl text-white`}>SERVING BEST RESTURENT CATRING & <br />BONQUET SERVICES IN NEW JERCY (1) </h1>
+                    </div>
                 </div>
                 <div>
                     <div className="relative">
 
-                <img className='h-[450px] w-full ' src="/hero/hero3.jpg" alt="Hero Img2" />
-                <h1 className={`${inter.className} absolute top-52 left-52 italic text-4xl text-white`}>SERVING BEST RESTURENT CATRING & <br />BONQUET SERVICES IN NEW JERCY (2) </h1>
-            </div>
+                        <img className='h-[450px] w-full ' src="/hero/hero3.jpg" alt="Hero Img2" />
+                        <h1 className={`${inter.className} absolute top-52 left-52 italic text-4xl text-white`}>SERVING BEST RESTURENT CATRING & <br />BONQUET SERVICES IN NEW JERCY (2) </h1>
+                    </div>
                 </div>
                 <div>
                     <div className="relative">
 
-                <img className='h-[450px] w-full ' src="/hero/hero2.jpg" alt="Hero Img3" />
-                <h1 className={`${inter.className} absolute top-52 left-52 italic text-4xl text-white`}>SERVING BEST RESTURENT CATRING & <br />BONQUET SERVICES IN NEW JERCY (3) </h1>
-            </div>
+                        <img className='h-[450px] w-full ' src="/hero/hero2.jpg" alt="Hero Img3" />
+                        <h1 className={`${inter.className} absolute top-52 left-52 italic text-4xl text-white`}>SERVING BEST RESTURENT CATRING & <br />BONQUET SERVICES IN NEW JERCY (3) </h1>
+                    </div>
                 </div>
-             
+
             </Slider>
 
         </section>
