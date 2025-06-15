@@ -13,13 +13,18 @@ const Hedar = () => {
           <Link href={'/'} >
             <li>HOME</li>
           </Link>
+
           <Link href={'menu'} >
             <li>MENU</li>
           </Link>
+
           <Link href={'banq'} >
             <li>BANQUET FACELITY</li>
           </Link>
-          <li>GALLERY</li>
+
+          <Link href={'gallery'} >
+            <li>GALLERY</li>
+          </Link>
           <li>CATERING</li>
           <li>CONTACT US</li>
 

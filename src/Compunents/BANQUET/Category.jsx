@@ -31,6 +31,8 @@ const Categorys = {
         "/banq/Rectangle 75.png",
         "/banq/Rectangle 76.png",
         "/banq/Rectangle 77.png",
+        "/banq/Rectangle 81.png",
+        "/banq/Rectangle 83.png",
     ],
 
      "TABLE CLOTHS" : [
@@ -79,7 +81,7 @@ const Category = () => {
 
             </ul>
 
-            <div className="py-5 flex flex-wrap gap-5 justify-between  mt-10 text-center items-center ">
+            <div className="py-5 flex flex-wrap gap-5 justify-between mt-10 text-center items-center ">
                   {  Categorys[active].map((imgSrc, index) => (
                     <img className='w-[23%] ' key={index} src={imgSrc} alt={`Imges ${index + 1} `} />
 
