@@ -25,7 +25,9 @@ const Hedar = () => {
           <Link href={'gallery'} >
             <li>GALLERY</li>
           </Link>
-          <li>CATERING</li>
+          <Link href={"catering_page"} >
+             <li>CATERING</li>
+          </Link>
           <li>CONTACT US</li>
 
         </ul>
