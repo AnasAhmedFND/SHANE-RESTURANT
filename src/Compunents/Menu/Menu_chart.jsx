@@ -2,10 +2,10 @@
 import React from 'react'
 
 const Menu_chart = () => {
-    const downloadMenu = () => {
+    const downloadsingleMenu = (url, fileName) => {
         const link = document.createElement("a");
-        link.href = "/menu/menu-chart1.png"; 
-        link.download = 'downloaded-menu.jpg';
+        link.href = url ; 
+        link.download = fileName;
         document.body.appendChild(link);
         link.click();
         document.body.removeChild(link);
@@ -14,19 +14,19 @@ const Menu_chart = () => {
     return (
         <section className='container mx-auto bg-black py-10  '>
             <div className="flex justify-center ">
-                <button title="Click to download" onClick={downloadMenu} className=' font-bold text-white border py-4 px-10 bg-red-500 tracking-widest cursor-pointer '>click here to download menu</button>
+                <button title="Click to download" onClick={() => downloadsingleMenu("/menu/menu-chart1.png", "Feeleat-menu.png") } className=' font-bold text-white border py-4 px-10 bg-red-500 tracking-widest cursor-pointer '>click here to download menu</button>
 
             </div>
             <img className='mt-4' src="/menu/menu-chart1.png" alt="" />
 
             <div className="flex justify-center mt-5 ">
-                <button className=' font-bold text-white border py-4 px-10 bg-red-500 tracking-widest '>click here to download menu</button>
+                <button title="Click to download" onClick={() => downloadsingleMenu("/menu/menu-chart1.png", "food-menu.png") } className=' font-bold text-white border py-4 px-10 bg-red-500 tracking-widest cursor-pointer '>click here to download menu</button>
 
             </div>
             <img className='mt-4' src="/menu/menu-chart2.png" alt="" />
 
             <div className="flex justify-center mt-5 ">
-                <button className=' font-bold text-white border py-4 px-10 bg-red-500 tracking-widest '>click here to download menu</button>
+                <button title="Click to download" onClick={() => downloadsingleMenu("/menu/menu-chart1.png", "drinks menu.png") } className=' font-bold text-white border py-4 px-10 bg-red-500 tracking-widest cursor-pointer '>click here to download menu</button>
 
             </div>
             <img className='mt-4' src="/menu/menu-chart3.png" alt="" />
