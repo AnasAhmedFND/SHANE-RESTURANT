@@ -44,7 +44,7 @@ const Contact = () => {
                         <input className='border-2 text-white w-full outline-none py-4 px-3 font-bold   mt-8  ' type="text" name='email' placeholder='E-MAIL* ' />
                         <input className='border-2 text-white w-full outline-none py-4 px-3 font-bold   mt-8  ' type="text" name='name' placeholder='SUBJECT* ' />
                         <textarea className='border-2 text-white w-full outline-none py-2 px-3 font-bold   mt-8 h-[150px] ' name="sms" id="message" placeholder='MESSAGE'></textarea>
-                        <button className='border py-5 px-16 font-bold text-black mt-4 bg-[#D9D9D9] '>SUBMIT</button>
+                        <button title='submit this information' className='border py-5 px-16 font-bold text-black mt-4 bg-[#D9D9D9] '>SUBMIT</button>
 
 
                     </div>
