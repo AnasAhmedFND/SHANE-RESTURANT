@@ -6,7 +6,7 @@ const Cafe = () => {
     style={{backgroundImage: "url('/hero/cafe.png') " }}
     >
 
-        <h2 className='font-bold text-4xl  text-red-500'>Find us on the mape</h2>
+        <h2 className='font-bold md:text-4xl text-2xl  text-red-500'>Find us on the mape</h2>
         <p className='text-white mt-2'>2015 us highway 1 south,north brunswicky,NJ 08902</p>
 
     </section>

@@ -3,14 +3,14 @@ import React from 'react'
 const Party = () => {
     return (
         <section className='container mx-auto py-8 ' style={{ backgroundImage: "url('/Catering/package.png') " }} >
-            <h2 className='text-center text-4xl tracking-widest text-red-500 py-2 '>PART<span className='border-b-2 pb-2'>Y TRAYS</span>TO GO</h2>
+            <h2 className='text-center md:text-4xl text-2xl tracking-widest text-red-500 py-2 '>PART<span className='border-b-2 pb-2'>Y TRAYS</span>TO GO</h2>
 
-            <div className="border text-white bg-black w-[60%] md:ml-[20%] mt-5 ">
+            <div className="border text-white bg-black md:w-[60%] md:ml-[20%] mt-5 ">
 
                 {/* top /..............*/}
                 <div className="border-b-2 flex pb-5 pt-2 px-2 items-center  ">
-                    <h6 className='w-[40%] '>Tray</h6>
-                    <ul className='flex justify-between w-[60%] py-5  '>
+                    <h6 className='md:w-[40%] w-[30%] '>Tray</h6>
+                    <ul className='flex justify-between md:w-[60%] w-[70%] py-5   '>
                         <li>Veg</li>
                         <li>Non-Veg</li>
                         <li>Seafood</li>

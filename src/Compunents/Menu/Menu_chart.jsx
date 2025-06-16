@@ -12,7 +12,7 @@ const Menu_chart = () => {
     };
 
     return (
-        <section className='container mx-auto bg-black py-10  '>
+        <section className='container mx-auto bg-black py-10 md:px-0 px-2  '>
             <div className="flex justify-center ">
                 <button title="Click to download" onClick={() => downloadsingleMenu("/menu/menu-chart1.png", "Feeleat-menu.png") } className=' font-bold text-white border py-4 px-10 bg-red-500 tracking-widest cursor-pointer '>click here to download menu</button>
 

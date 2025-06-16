@@ -2,12 +2,12 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <section className=' bg-[#FFEDED] pt-10'>
+    <section className=' bg-[#FFEDED] pt-10 md:px-0 px-2'>
       {/* top div ****************************** */}
-      <div className="flex container mx-auto py-5 pb-10  justify-between">
+      <div className="md:flex container mx-auto py-5 pb-10  justify-between">
 
         {/* first div........... */}
-        <div className=" w-[25%]  ">
+        <div className=" md:w-[25%]  ">
           <h4 className='font-bold text-xl'>have a message?</h4>
           <input className='border mt-4 py-2 rounded-md w-full bg-white text-[12px] px-2 ' type="text" placeholder='NAME*' />
           <input className='border mt-2 py-2 rounded-md w-full bg-white text-[12px] px-2 ' type="text" placeholder='EMAIL*' />
@@ -20,7 +20,7 @@ const Footer = () => {
         </div>
 
         {/* two .............*/}
-        <div className=" w-[24%] ">
+        <div className=" md:w-[24%] ">
           <h4 className='font-bold text-xl '>contac us</h4>
           <p className='mt-4 '>2215 US Highway 1 South, North Brunswick, NJ 08902</p>
           <p className='mt-2 '>Call Us At</p>
@@ -33,7 +33,7 @@ const Footer = () => {
         </div>
 
         {/* three ...............*/}
-        <div className=" w-[20%] ">
+        <div className=" md:w-[20%] ">
           <h4 className='font-bold text-xl'>Qucik lines</h4>
           <p className='mt-4'>Home</p>
           <p className='mt-2'>Menu </p>
@@ -46,7 +46,7 @@ const Footer = () => {
         </div>
 
         {/*  four................*/}
-        <div className=" w-[24%] ">
+        <div className=" md:w-[24%] ">
           <h4 className='font-bold text-xl'>Hours of opration</h4>
           <p className='mt-4 '>6 DAYS OPEN</p>
           <p className='mt-2 '>Monday, Wednesday-Friday : 11AM To 3PM</p>

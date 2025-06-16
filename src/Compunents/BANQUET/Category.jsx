@@ -2,8 +2,8 @@
 import React, { useState } from 'react'
 
 const Categorys = {
-    "FILTER-ALL" :
-    [
+
+    "FILTER-ALL" : [        
         "/banq/Rectangle 74.png",
         "/banq/Rectangle 75.png",
         "/banq/Rectangle 76.png",
@@ -61,17 +61,17 @@ const Category = () => {
     
 
     return (
-        <section className='container mx-auto py-10 bg-black text-white '>
+        <section className='container mx-auto py-10 bg-black text-white px-5'>
             <div className="text-center">
                 <h3 className='text-red-500 text-xl'> WE HAVE 3 PARTY HALL</h3>
                 <h3>SHANE Banquet – 60 to 125 people</h3>
                 <h3>Shagun – New one 100 to 300 people</h3>
 
             </div>
-            <ul className='flex  justify-around mt-10 '>               
+            <ul className='md:flex flex-row flex flex-wrap  justify-around mt-10 '>               
 
                 {Object.keys(Categorys).map((portfolio) => (
-                    <li onClick={() => setActive(portfolio)} key={portfolio} className={`bg-[#d694f1] text-black hover:bg-red-500 hover:text-white py-2 px-4 font-bold rounded-md cursor-pointer ${active === portfolio ?' bg-[#ff6600] text-white' : 'bg-[#f5f] '} `}  > 
+                    <li onClick={() => setActive(portfolio)} key={portfolio} className={`bg-[#d694f1] text-black hover:bg-red-500 hover:text-white py-2 px-4 font-bold rounded-md cursor-pointer md:mt-0 mt-2 ${active === portfolio ?' bg-[#ff6600] text-white' : 'bg-[#f5f] '} `}  > 
 
                     {portfolio}
 
@@ -81,7 +81,7 @@ const Category = () => {
 
             </ul>
 
-            <div className="py-5 flex flex-wrap gap-5 justify-between mt-10 text-center items-center ">
+            <div className="py-5 flex flex-wrap md:gap-5 gap-2 justify-between mt-10 text-center items-center  ">
                   {  Categorys[active].map((imgSrc, index) => (
                     <img className='w-[23%] ' key={index} src={imgSrc} alt={`Imges ${index + 1} `} />
 

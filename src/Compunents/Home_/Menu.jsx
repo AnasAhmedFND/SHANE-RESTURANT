@@ -8,12 +8,12 @@ const inter = Inter({
 
 const Menu = () => {
   return (
-    <section className='container mx-auto  '>
+    <section className='container mx-auto md:px-0 px-2 '>
         {/* first menu ...........*/}
         <div className="py-5 text-center tracking-widest " 
         style={{ backgroundImage: "url('/hero/menu-bg1.png') " }} >
 
-            <h2 className={`${inter.className} text-white mt-20 `} >CATTERING FOR ALL OCCASSION -GURU CATERS</h2>
+            <h2 className={`${inter.className} text-white mt-20 md:text-[16px] text-[14px] `} >CATTERING FOR ALL OCCASSION -GURU CATERS</h2>
 
             <div className="flex justify-around mt-10 py-10">
                 <img className='w-[30%] ' src="/hero/menu1-1.png" alt="menu" />

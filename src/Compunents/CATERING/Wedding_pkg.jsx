@@ -2,26 +2,26 @@ import React from 'react'
 
 const Wedding_pkg = () => {
     return (
-        <section className='container mx-auto  py-5 '>
+        <section className='container mx-auto  py-5 md:px-0 px-2 '>
           
             <h2 className='font-bold text-2xl text-center '>WEDDI<span className='border-b-4 border-red-500 pb-2' >NG PAC</span>KAGES</h2>
             <p className='mt-4 text-center'>All items to be selected from our Banquet Menu</p>
 
-            <div className="py-5 flex border justify-center  bg-linear-60/longer from-red-400 to-blue-400">
+            <div className="py-5 md:flex border justify-center  bg-linear-60/longer from-red-400 to-blue-400">
 
                 {/* left ,,,,,, */}
-                <div className="w-[20%] px-2 bg-white/50 h-[200px] flex flex-col justify-between  ">
+                <div className="md:w-[20%] px-2 bg-white/50 h-[200px] flex flex-col justify-between  ">
                     <h6 className='border-b text-red-500 '>STANDARD WEEDING</h6>
 
-                    <p>DELUX WEEDING</p>
-                    <p>GOLD PACKAGES</p>
-                    <p className='pb-4'>OPTIONAL ITEMS</p>
+                    <p className='md:border-none border-b-2 md:pb-0 pb-2 '>DELUX WEEDING</p>
+                    <p className='md:border-none border-b-2 md:pb-0 pb-2 '>GOLD PACKAGES</p>
+                    <p className='md:border-none border-b-2 md:pb-4 pb-2 '>OPTIONAL ITEMS</p>
 
                 </div>
                 {/* Right ............*/}
-                <div className="w-[70%] flex px-2  bg-white/50 " >
+                <div className="md:w-[70%] md:flex px-2  bg-white/50 " >
                     {/* one.................... */}
-                    <div className="w-[25%]  ">
+                    <div className="md:w-[25%]  ">
                         <h5 className='font-bold '>COCKTAIL HOUR</h5>
 
                         <div className="mt-4 text-[14px] flex flex-col gap-2 ">
@@ -40,7 +40,7 @@ const Wedding_pkg = () => {
                     </div>
 
                     {/* two.............................. */}
-                    <div className="w-[35%] pb-2  ">
+                    <div className="md:w-[35%] pb-2  ">
                         <h5 className='font-bold'> THE WEDDING BUFFET DINNER</h5>
                         <div className="flex flex-col gap-2 text-[14px] mt-4 ">
                         <p> One Chicken Entree</p>
@@ -60,7 +60,7 @@ const Wedding_pkg = () => {
                     </div>
 
                     {/* three ........................*/}
-                    <div className="w-[20%]   ">
+                    <div className="md:w-[20%]   ">
                         <h5 className='font-bold '>DESSERTS</h5>
 
                         <div className="flex flex-col gap-2 text-[14px] mt-4 ">
@@ -73,7 +73,7 @@ const Wedding_pkg = () => {
                     </div>
 
                     {/* four.......................... */}
-                    <div className="w-[20%]  ">
+                    <div className="md:w-[20%]  ">
                         <h5 className='font-bold '>EXTRAS</h5>
 
                         <div className="flex flex-col gap-2 mt-4 text-[14px] ">

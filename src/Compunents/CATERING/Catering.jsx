@@ -2,15 +2,17 @@ import React from 'react'
 
 const Catering = () => {
     return (
-        <section className='container mx-auto'>
-            <img className='relative' src="/Catering/catering.png" alt="catering" />
+      
+      
+        <section className='container mx-auto relative md:px-0 px-2 '>
+            <img className='' src="/Catering/catering.png" alt="catering" />
             <div className="text-center flex justify-center ">
-                <h2 className='font-bold text-4xl text-white absolute top-[300px] '>CATERING </h2>
+                <h2 className='font-bold text-4xl text-white absolute md:top-[200px] top-[60px] '>CATERING </h2>
 
             </div>
 
-            <div className="bg-black py-10 px-20 text-white ">
-                <p className='text-[14px] tracking-widest '>We specializes in all types of catering. Ranging from the basic food pick up for at least 30 people to 100% custom <br /> catering. We are equipped with the very best equipments for outdoors and our massive production line enables us to <br /> produce food for up to 2000 people.
+            <div className="bg-black py-10 md:px-20 text-white ">
+                <p className='text-[14px] tracking-widest md:visible overflow-auto md:h-auto h-[200px] md:px-0 px-2 '>We specializes in all types of catering. Ranging from the basic food pick up for at least 30 people to 100% custom <br /> catering. We are equipped with the very best equipments for outdoors and our massive production line enables us to <br /> produce food for up to 2000 people.
 
                     Our recipes are made from scratch using the freshest of local ingredients, organic when ever possible. Meals are simple, <br /> delicious and nutritious. We always find the best ingredients and make sure everyone’s food requirements are covered in <br /> our menu selections. <br />
 

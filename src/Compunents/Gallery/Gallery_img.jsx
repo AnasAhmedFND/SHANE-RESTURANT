@@ -110,7 +110,7 @@ const Gallery_img = () => {
     };
 
     return (
-        <section className='container mx-auto   bg-black p-5 pt-10'>
+        <section className='container mx-auto   bg-black p-5 pt-10 md:px-0 px-2'>
 
 
 
@@ -120,7 +120,7 @@ const Gallery_img = () => {
                     <h2 className="text-white font-bold text-2xl">Portfolio (1) </h2>
                     <div className="flex flex-wrap gap-3 mt-2">
                         {Images.one.map((imgSrc, index) => (
-                            <img className='w-[19%] border-2 border-white ' key={index} src={imgSrc} alt={`imges ${index + 1}`} />
+                            <img className='md:w-[19%] w-[20%]  border-2 border-white ' key={index} src={imgSrc} alt={`imges ${index + 1}`} />
                         ))}
 
                     </div>

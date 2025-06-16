@@ -15,7 +15,7 @@ const Notice_board = () => {
     };
 
     return (
-        <section className='border container mx-auto  text-white py-10 pb-10'
+        <section className='border container mx-auto  text-white md:py-10 pb-10 md:px-0 px-2 '
             style={{ backgroundImage: "url('menu/notice-bord.png') " }}
         >
 
@@ -23,7 +23,7 @@ const Notice_board = () => {
                 
                     <div className="text-center ">
                         <h4 className='font-bold text-2xl mt-5 '>Food allergy notice: (1) </h4>
-                        <p className='mt-5'>Food prepared in this establishment may contain wheat,dairy, and cashew nuts. <br /> <br /> Please tell your server if you have allergy because we are not responsible for any errors and cross contamination</p>
+                        <p className='md:mt-5 md:mb-0 mb-2'>Food prepared in this establishment may contain wheat,dairy, and cashew nuts. <br /> <br /> Please tell your server if you have allergy because we are not responsible for any errors and cross contamination</p>
 
                     </div>
                 

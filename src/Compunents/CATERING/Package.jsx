@@ -2,11 +2,11 @@ import React from 'react'
 
 const Package = () => {
     return (
-        <section className='container mx-auto  py-5' style={{ backgroundImage: "url('/Catering/package.png') " }} >
+        <section className='container mx-auto md:px-0 px-2  py-5' style={{ backgroundImage: "url('/Catering/package.png') " }} >
             <p className='text-center mt-2 font-bold'>Note: All catering package express,silver, gold and platinum for New Year eve 2022 minimum. 50 people.</p>
 
-            <div className="flex justify-around mt-16">
-                <div className="w-[20%]   h-[350px] ">
+            <div className="md:flex justify-around mt-16">
+                <div className="md:w-[20%]   h-[350px] ">
                     <div className="bg-[#F3C2C2] py-2 text-center font-bold ">
                         <h4>Express Package</h4>
 
@@ -27,7 +27,7 @@ const Package = () => {
 
                 </div>
 
-                <div className="w-[20%]   h-[420px] ">
+                <div className="md:w-[20%]   h-[420px] ">
                     <div className="bg-[#F3C2C2] py-2 text-center font-bold">
                         <h4>Silver Package</h4>
 
@@ -50,7 +50,7 @@ const Package = () => {
 
                 </div>
 
-                <div className="w-[20%]   h-[450px] ">
+                <div className="md:w-[20%]   h-[450px] ">
                     <div className="bg-[#F3C2C2] py-2 text-center font-bold">
                         <h4>Gold Package</h4>
 
@@ -74,7 +74,7 @@ const Package = () => {
 
                 </div>
 
-                <div className="w-[20%]  h-[400px] ">
+                <div className="md:w-[20%]  h-[400px] ">
                     <div className="bg-[#F3C2C2] py-2 text-center font-bold ">
                         <h4>Platinum Packge</h4>
 
