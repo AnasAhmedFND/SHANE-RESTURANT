@@ -55,7 +55,7 @@ const Package = () => {
                         <h4>Gold Package</h4>
 
                     </div>
-                    <div className="bg-[#D9D9D9] px-8 pt-6 pb-2">
+                    <div className="bg-[#D9D9D9] px-8 pt-6 pb-2 md:h-[350px] ">
                         <p className=''>4 Appetizers</p>
                         <p>2 Vegetarian + 2 Non – Veg</p>
                         <p>2 Veg Entrée</p>

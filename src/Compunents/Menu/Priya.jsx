@@ -3,7 +3,7 @@ import React from 'react'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
-import "@/Styles/priya.css";
+import "@/Styles/hero_slick.css";
 
 const Priya = () => {
     const settings = {
