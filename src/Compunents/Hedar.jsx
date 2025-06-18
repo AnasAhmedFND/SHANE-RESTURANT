@@ -20,14 +20,15 @@ const Hedar = () => {
   return (
     <section className='md:sticky md:top-0 md:z-20 bg-[#0b0532] text-white py-5 md:px-0 px-2 '>
 
-      <div onClick={hendeleMenu} className="md:hidden">
-        <p className='px-2 flex justify-end font-bold text-2xl' > {menu === true ? <ImCross className='cursor-pointer' /> : <LuMenu className='cursor-pointer' />   }</p>
+      <div  className="md:hidden flex justify-between items-center">
+        <p className='font-bold text-xl'>Menu...</p>
+        <p onClick={hendeleMenu} className='px-2  font-bold text-2xl' > {menu === true ? <ImCross className='cursor-pointer' /> : <LuMenu className='cursor-pointer' />   }</p>
         
       </div>
 
       
 
-      <div className={`container mx-auto md:flex items-center gap-5 md:mt-0 mt-2 md:pt-0 pt-2 ${menu ? " top-[50px] left-0  bg-black/80 w-full duration-1000 ease-in-out z-40 h-screen absolute " : " absolute top-19 -left-[872px] duration-700 ease-in-out" } `}>
+      <div className={`container mx-auto md:flex items-center gap-5 md:mt-0 mt-2 md:pt-0 pt-2 ${menu ? " absolute top-[50px] left-0  bg-black/80 w-full duration-1000 ease-in-out z-40 h-screen  " : "md:static  absolute  -left-[800px] " } `}>
         <img className='w-[200px] ' src="/Group.png" alt="" />
 
         <ul className='md:flex md:flex-row flex flex-col gap-8 md:mt-0 mt-4 md:gap-5 font-bold text-[14px] md:ml-[96px] md:px-0 px-4 '>
